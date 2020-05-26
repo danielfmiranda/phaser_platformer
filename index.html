@@ -2,32 +2,117 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Platformer</title>
-  <style>
-    html,
-    body {
-      margin: 0 auto;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-    }
+    <link rel="icon" href="assets/images/Virtual Guy/Jump (32x32).png">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,900&display=swap" rel="stylesheet">
 
-    #game {
-      margin: 10px auto;
-      padding: 0;
-      width: 800px;
-      height: 640px;
-    }
-  </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>DM | Platformer</title>
+    <style>
+        html,
+        body {
+            font-family: "Press Start 2P";
+
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #5b6ad0 !important;
+
+        }
+
+        #game {
+            margin: 10px auto;
+            padding: 0;
+            width: 600px;
+            height: 400px;
+        }
+
+        .header {
+            text-align: center;
+            max-width: 750px;
+            margin-top: 2em !important;
+            text-align: center;
+            margin-bottom: 2em !important;
+        }
+
+        .contactIcons {
+            padding-top: 1.5em;
+        }
+
+        .footer {
+            text-align: center;
+            padding-top: 1.5em;
+            padding-bottom: -4.5em;
+        }
+
+        .headerContainerForMargin {
+            margin: auto;
+            max-width: 750px;
+        }
+
+        .gameContainer {
+            padding-top: 10px;
+            text-align: center;
+            font-family: 'Nunito Sans', sans-serif, italic;
+            color: white;
+            max-width: 690px;
+            margin: auto;
+            background-color: #212529;
+            padding-bottom: 10px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+            .gameContainer h1{
+            padding-top: .2em;
+        }
+
+
+    </style>
 </head>
 
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="game"></div>
-  <script src="//cdn.jsdelivr.net/npm/phaser@3.17.0/dist/phaser.min.js"></script>
-  <script src="game.js"></script>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+
+<div class="headerContainerForMargin">
+    <div class="header nes-container  is-rounded is-dark with-title">
+        <p> Welcome!</p>
+        <p> Collect as many pineapples as you can, and avoid the bombs! </p>
+        <h6> *Use the arrow-keys to move </h6>
+    </div>
+</div>
+<div class="gameContainer">
+    <div id="game"></div>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.17.0/dist/phaser.min.js"></script>
+    <script src="game.js"></script>
+    <h1> DANNYBOY </h1>
+</div>
+<div class="footer">
+    <a href='http://www.danielfmiranda.com' target="_blank">
+
+        <button type="button" class="nes-btn is-primary">www.danielfmiranda.com</button>
+    </a>
+    <div class="contactIcons">
+        <a href="http://www.github.com/manieldiranda" target="_blank">
+            <i class="nes-icon github is-medium"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/daniel-f-miranda" target="_blank">
+            <i class="nes-icon linkedin is-medium"></i>
+        </a>
+        <a href="mailto:manieldiranda@gmail.com" target="_blank">
+            <i class="nes-icon gmail is-medium"></i>
+        </a>
+
+
+    </div>
+    </a>
+
+
+</div>
 </body>
 
 </html>

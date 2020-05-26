@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../phaser_platformer/.idea/stackabuse-platformer.iml" filepath="$PROJECT_DIR$/../phaser_platformer/.idea/stackabuse-platformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../phaser_platformer/.idea/phaser_platformer.iml" filepath="$PROJECT_DIR$/../phaser_platformer/.idea/phaser_platformer.iml" />
     </modules>
   </component>
 </project>
